@@ -1,0 +1,35 @@
+body, p.copyright {
+    background-color: #364371;
+    padding: 0px 20px;
+    margin: 0;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: row;;
+    justify-content: center;;
+}
+
+#nav {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #b0cfff;
+}
+
+#content {
+    background-color: #5b7fbd;
+    text-align: center;
+}
+
+#content li {
+    list-style-type: none;
+}
+
+p.copyright {
+    position: absolute;
+    right: 20px; 
+}
+
