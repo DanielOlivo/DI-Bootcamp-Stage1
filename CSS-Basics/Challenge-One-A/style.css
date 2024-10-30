@@ -1,0 +1,40 @@
+body {
+    background-color: coral;
+}
+
+div#wrap, h1 {
+    border: 4px dashed black;
+    margin: auto;
+}
+
+div#wrap {
+    background-color: antiquewhite;
+    width: 600px;
+    align-items: center;
+    
+}
+
+h1 {
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+div#wrap > p {
+    padding: 10px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li::first-letter {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* I HAVE NO IDEA WHICH FONT FAMILIES ARE USED */
