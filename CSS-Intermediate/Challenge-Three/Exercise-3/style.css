@@ -1,0 +1,46 @@
+#wrap {
+    margin: 0;
+    padding: 20px;
+}
+
+#container div {
+    border: 2px solid black;
+}
+
+header {
+    background-color: purple;
+    height: 140px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section div {
+    width: 32%;
+    height: 200px;
+}
+
+img {
+    width: 100%;
+    height: inherit;
+}
+
+#container div[id] {
+    max-width: 200px;
+    min-height: 200px;
+}
+
+#left {
+    background-color: orange;
+}
+#center {
+    background-color: red;
+}
+#right {
+    background-color: blue;
+}
