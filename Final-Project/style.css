@@ -1,0 +1,153 @@
+/* body * {
+    border: 2px dashed black;
+} */
+
+body{
+    margin: 0;
+}
+
+header {
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    gap:40px;
+}
+
+nav a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    font-weight: bold;
+}
+
+#home {
+    padding-top: 50px;
+    width: 100%;
+}
+
+#poster {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#poster #name {
+    position: absolute;
+    left: 10%;  
+    top: 70px;
+    color: white;
+}
+
+#poster #name h1 {
+    font-size: 40px;
+}
+
+#poster #name h3 {
+    font-size: 30px;
+}
+
+
+
+#description {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: black;
+    color:white;
+}
+
+#description p {
+    position: relative;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+#books-head {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color: #507DBC;
+}
+
+#books-head h1 {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.book {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 450ppx;
+}
+
+.books-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+.cover {
+    width: 240px;
+    height: 400px;
+    background-color: darkorange;
+}
+
+.cover img{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+}
+
+div.info {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+}
+
+a.info {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+#awards ul {
+    background-color: #A1C6EA;
+    margin-top: 0;
+    padding-left: 40%; 
+    padding-bottom: 20px;
+}
+
+#awards li {
+    list-style-type: square;
+    /* text-align: center; */
+    font-size: 24px;
+
+}
